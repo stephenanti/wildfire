@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    width: 90%;
+    height: 600px;
+    margin: 5em auto;
+}
+
+#map2 {
+    width: 90%;
+    height: 600px;
+    margin: 5em auto;
+}
+
+#map3 {
+    width: 90%;
+    height: 600px;
+    margin: 5em auto;
+}
+
+.mapboxgl-popup-content h4 {
+    font-weight: 300;
+    font-size: 0.9em;
+    border-width: 0px 0px 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.mapboxgl-popup-content h2 {
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+.mapboxgl-popup-content p {
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
+
+.header {
+    max-width: 50rem;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: monospace;
+    max-width: 90%;
+    margin: 3em auto;
+}
+
+h4 {
+    font-family: monospace;
+    max-width: 90%;
+    margin: 3em auto;
+}
+p {
+    font-family: monospace;
+    font-size: large;
+    /* line-height: 1.75em; */
+    max-width: 90%;
+    margin: 3em auto;
+}
+
+
+.par-2 {
+    font-family: monospace;
+    line-height: 1.75em;
+}
+
+.footer {
+    max-width: 50rem;
+    margin: 2rem auto; /* vertical margin and horizontal margin */
+    text-align: center;
+    border-top: solid 1px;
+    border-color: hsl(0, 0%, 50%);
+}
+
+.legend-title {
+    z-index: 100;
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+    background: hsla(100, 100%, 100%, .9);
+    padding: 0em 1em 0em;
+    width: 160px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    /* border-radius: 1em; */
+    margin-left: 2em;
+    opacity: 0.8;
+}
+
+.legend-title div span {
+	border-radius: 0%;
+	display: inline-block;
+	height: 10px;
+	margin-left: 5px;
+	width: 10px;
+    font-weight: bold;
+}
+
+/* .legend {
+    font:'Roboto', sans-serif;
+    padding: 1em 1em 1em 1em;
+    position:relative;
+    right: 10px;
+    z-index: 100;
+    opacity: 100%;
+    font-size: 14px;
+  } */
+
+  .legend div span {
+    border-radius: 0%;
+    display: inline-block;
+    height: 10px;
+    margin-top: 0px;
+    margin-right: 10px;
+    width: 10px;
+  }
+
+  .header {
+    max-width: 50rem;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+}
+
+h3 {
+    font-family: monospace;
+}
+p {
+    font-family: monospace;
+    font-size: large;
+    /* line-height: 1.75em; */
+    max-width: 90%;
+    margin: 3em auto;
+}
